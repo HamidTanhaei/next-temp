@@ -1,0 +1,142 @@
+
+
+> next@15.2.0-canary.3 dev /Users/hamid/web/test/next.js/packages/next
+> cross-env NEXT_SERVER_EVAL_SOURCE_MAPS=1 taskr
+
+[35m[00:39:06][39m[0m Running with [4m[36m/Users/hamid/web/test/next.js/packages/next/taskfile.js[39m[0m
+[35m[00:39:06][39m[0m Starting [1m[33mdefault[39m[0m
+[35m[00:39:08][39m[0m Starting [1m[33mbuild[39m[0m
+[35m[00:39:08][39m[0m Starting [1m[33mprecompile[39m[0m
+[35m[00:39:08][39m[0m Starting [1m[33mbrowser_polyfills[39m[0m
+[35m[00:39:08][39m[0m Starting [1m[33mnext__polyfill_nomodule[39m[0m
+[35m[00:39:08][39m[0m Starting [1m[33mnext__polyfill_module[39m[0m
+[35m[00:39:08][39m[0m Starting [1m[33mcopy_ncced[39m[0m
+[35m[00:39:08][39m[0m Starting [1m[33mcopy_styled_jsx_assets[39m[0m
+[35m[00:39:08][39m[0m Finished [34m[1mnext__polyfill_nomodule[22m[0m in [32m231ms[39m[0m
+[35m[00:39:08][39m[0m Finished [34m[1mnext__polyfill_module[22m[0m in [32m266ms[39m[0m
+[35m[00:39:08][39m[0m Finished [34m[1mbrowser_polyfills[22m[0m in [32m268ms[39m[0m
+[35m[00:39:08][39m[0m Finished [34m[1mcopy_ncced[22m[0m in [32m836ms[39m[0m
+[35m[00:39:08][39m[0m Finished [34m[1mcopy_styled_jsx_assets[22m[0m in [32m848ms[39m[0m
+[35m[00:39:09][39m[0m Finished [34m[1mprecompile[22m[0m in [32m1.60s[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mcompile[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mnext_compile[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mcli[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mbin[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mserver[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mserver_esm[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mapi_esm[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mnextbuild[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mnextbuildjest[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mnextbuildstatic[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mnextbuildstatic_esm[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mnextbuild_esm[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mpages[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mpages_app[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mpages_error[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mpages_document[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mpages_esm[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mpages_app_esm[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mpages_error_esm[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mpages_document_esm[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mlib[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mlib_esm[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mclient[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mclient_esm[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mdiagnostics[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mtelemetry[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mtrace[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mshared[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mshared_esm[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mshared_re_exported[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mshared_re_exported_esm[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mserver_wasm[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mexperimental_testing[39m[0m
+[35m[00:39:09][39m[0m Starting [1m[33mexperimental_testmode[39m[0m
+[35m[00:39:10][39m[0m [1m[35mWarning:[39m[0m Source did not match any files!
+	  Patterns:   ["src/server/**/*.+(wasm)"]
+[35m[00:39:10][39m[0m Finished [34m[1mserver_wasm[22m[0m in [32m829ms[39m[0m
+[35m[00:39:10][39m[0m Finished [34m[1mbin[22m[0m in [32m1.08s[39m[0m
+[35m[00:39:10][39m[0m Finished [34m[1mpages_app[22m[0m in [32m1.08s[39m[0m
+[35m[00:39:11][39m[0m Finished [34m[1mpages_document[22m[0m in [32m1.59s[39m[0m
+[35m[00:39:11][39m[0m Finished [34m[1mpages_error[22m[0m in [32m1.59s[39m[0m
+[35m[00:39:11][39m[0m Finished [34m[1mpages[22m[0m in [32m1.59s[39m[0m
+[35m[00:39:11][39m[0m Finished [34m[1mdiagnostics[22m[0m in [32m1.92s[39m[0m
+[35m[00:39:11][39m[0m Finished [34m[1mtelemetry[22m[0m in [32m1.99s[39m[0m
+[35m[00:39:12][39m[0m Finished [34m[1mpages_error_esm[22m[0m in [32m2.72s[39m[0m
+[35m[00:39:12][39m[0m Finished [34m[1mpages_app_esm[22m[0m in [32m2.72s[39m[0m
+[35m[00:39:12][39m[0m Finished [34m[1mpages_document_esm[22m[0m in [32m2.72s[39m[0m
+[35m[00:39:12][39m[0m Finished [34m[1mpages_esm[22m[0m in [32m2.72s[39m[0m
+[35m[00:39:12][39m[0m Finished [34m[1mtrace[22m[0m in [32m2.75s[39m[0m
+[35m[00:39:13][39m[0m Finished [34m[1mlib[22m[0m in [32m3.81s[39m[0m
+[35m[00:39:14][39m[0m Finished [34m[1mcli[22m[0m in [32m4.52s[39m[0m
+[35m[00:39:14][39m[0m Finished [34m[1mnextbuildjest[22m[0m in [32m4.52s[39m[0m
+[35m[00:39:14][39m[0m Finished [34m[1mnextbuildstatic[22m[0m in [32m4.52s[39m[0m
+[35m[00:39:14][39m[0m Finished [34m[1mnextbuildstatic_esm[22m[0m in [32m4.52s[39m[0m
+[35m[00:39:14][39m[0m Finished [34m[1mlib_esm[22m[0m in [32m4.52s[39m[0m
+[35m[00:39:14][39m[0m Finished [34m[1mapi_esm[22m[0m in [32m4.95s[39m[0m
+[35m[00:39:14][39m[0m Finished [34m[1mexperimental_testmode[22m[0m in [32m5.00s[39m[0m
+[35m[00:39:15][39m[0m Finished [34m[1mshared_re_exported[22m[0m in [32m5.36s[39m[0m
+[35m[00:39:15][39m[0m Finished [34m[1mshared_re_exported_esm[22m[0m in [32m5.49s[39m[0m
+[35m[00:39:15][39m[0m Finished [34m[1mshared[22m[0m in [32m5.49s[39m[0m
+[35m[00:39:15][39m[0m Finished [34m[1mshared_esm[22m[0m in [32m5.49s[39m[0m
+[35m[00:39:15][39m[0m Finished [34m[1mexperimental_testing[22m[0m in [32m5.53s[39m[0m
+[35m[00:39:16][39m[0m Finished [34m[1mserver[22m[0m in [32m7.00s[39m[0m
+[35m[00:39:16][39m[0m Finished [34m[1mserver_esm[22m[0m in [32m7.16s[39m[0m
+[35m[00:39:16][39m[0m Finished [34m[1mnextbuild_esm[22m[0m in [32m7.27s[39m[0m
+[35m[00:39:17][39m[0m Finished [34m[1mnextbuild[22m[0m in [32m7.38s[39m[0m
+[35m[00:39:17][39m[0m Finished [34m[1mclient_esm[22m[0m in [32m7.43s[39m[0m
+[35m[00:39:17][39m[0m Finished [34m[1mclient[22m[0m in [32m7.44s[39m[0m
+[35m[00:39:17][39m[0m Finished [34m[1mnext_compile[22m[0m in [32m7.44s[39m[0m
+[35m[00:39:17][39m[0m Starting [1m[33mnext_bundle[39m[0m
+[35m[00:39:17][39m[0m Starting [1m[33mnext_bundle_app_turbo[39m[0m
+[35m[00:39:17][39m[0m Starting [1m[33mnext_bundle_app_prod[39m[0m
+[35m[00:39:17][39m[0m Starting [1m[33mnext_bundle_app_dev[39m[0m
+[35m[00:39:17][39m[0m Starting [1m[33mnext_bundle_app_turbo_experimental[39m[0m
+[35m[00:39:17][39m[0m Starting [1m[33mnext_bundle_app_prod_experimental[39m[0m
+[35m[00:39:17][39m[0m Starting [1m[33mnext_bundle_app_dev_experimental[39m[0m
+[35m[00:39:17][39m[0m Starting [1m[33mnext_bundle_pages_prod[39m[0m
+[35m[00:39:17][39m[0m Starting [1m[33mnext_bundle_pages_dev[39m[0m
+[35m[00:39:17][39m[0m Starting [1m[33mnext_bundle_pages_turbo[39m[0m
+[35m[00:39:17][39m[0m Starting [1m[33mnext_bundle_server[39m[0m
+[35m[00:39:17][39m[0m Finished [34m[1mnext_bundle_app_turbo[22m[0m in [32m727ms[39m[0m
+[35m[00:39:17][39m[0m Finished [34m[1mnext_bundle_app_prod[22m[0m in [32m307ms[39m[0m
+[35m[00:39:17][39m[0m Finished [34m[1mnext_bundle_app_dev[22m[0m in [32m307ms[39m[0m
+[35m[00:39:17][39m[0m Finished [34m[1mnext_bundle_app_turbo_experimental[22m[0m in [32m307ms[39m[0m
+[35m[00:39:17][39m[0m Finished [34m[1mnext_bundle_app_prod_experimental[22m[0m in [32m307ms[39m[0m
+[35m[00:39:17][39m[0m Finished [34m[1mnext_bundle_app_dev_experimental[22m[0m in [32m306ms[39m[0m
+[35m[00:39:17][39m[0m Finished [34m[1mnext_bundle_pages_prod[22m[0m in [32m306ms[39m[0m
+[35m[00:39:17][39m[0m Finished [34m[1mnext_bundle_pages_dev[22m[0m in [32m306ms[39m[0m
+[35m[00:39:17][39m[0m Finished [34m[1mnext_bundle_pages_turbo[22m[0m in [32m306ms[39m[0m
+[35m[00:39:17][39m[0m Finished [34m[1mnext_bundle_server[22m[0m in [32m306ms[39m[0m
+[35m[00:39:17][39m[0m Finished [34m[1mnext_bundle[22m[0m in [32m728ms[39m[0m
+[35m[00:39:17][39m[0m Starting [1m[33mncc_react_refresh_utils[39m[0m
+next-bundle-app-turbo compiled successfully.
+[35m[00:39:27][39m[0m Finished [34m[1mncc_react_refresh_utils[22m[0m in [32m9.96s[39m[0m
+[35m[00:39:27][39m[0m Starting [1m[33mncc_next_font[39m[0m
+next-bundle-app-prod compiled successfully.
+next-bundle-app-prod-experimental compiled successfully.
+next-bundle-app-turbo-experimental compiled successfully.
+next-bundle-pages-prod compiled successfully.
+next-bundle-pages-turbo compiled successfully.
+next-bundle-pages-dev compiled successfully.
+next-bundle-app-dev compiled successfully.
+next-bundle-app-dev-experimental compiled successfully.
+[35m[00:39:33][39m[0m Finished [34m[1mncc_next_font[22m[0m in [32m5.43s[39m[0m
+[35m[00:39:33][39m[0m Starting [1m[33mcapsize_metrics[39m[0m
+[35m[00:39:33][39m[0m Finished [34m[1mcapsize_metrics[22m[0m in [32m87ms[39m[0m
+[35m[00:39:33][39m[0m Finished [34m[1mcompile[22m[0m in [32m23.65s[39m[0m
+[35m[00:39:33][39m[0m Starting [1m[33mcheck_error_codes[39m[0m
+
+> nextjs-project@0.0.0 check-error-codes /Users/hamid/web/test/next.js
+> node packages/next/check-error-codes.js
+
+next-bundle-server compiled successfully.
+[35m[00:39:33][39m[0m Finished [34m[1mcheck_error_codes[22m[0m in [32m456ms[39m[0m
+[35m[00:39:33][39m[0m Starting [1m[33mgenerate_types[39m[0m
+
+> next@15.2.0-canary.3 types /Users/hamid/web/test/next.js/packages/next
+> tsc --declaration --emitDeclarationOnly --stripInternal --declarationDir dist
+
+[35m[00:39:50][39m[0m Finished [34m[1mgenerate_types[22m[0m in [32m16.63s[39m[0m
+[35m[00:39:50][39m[0m Finished [34m[1mbuild[22m[0m in [32m42.34s[39m[0m
+[35m[00:39:50][39m[0m Finished [34m[1mdefault[22m[0m in [32m43.85s[39m[0m
